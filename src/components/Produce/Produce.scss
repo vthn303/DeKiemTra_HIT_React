@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+table{
+
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+
+th,td{
+    padding: 8px;
+    border: 1px solid black;
+}
+
+
+button{
+    padding: 8px;
+    margin: 10px;
+}
+
+textarea{
+    vertical-align: top;
+    resize: none;
+    
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    padding: 30px;
+    color: aliceblue;
+
+    background: linear-gradient(
+        120deg, green, blue
+    );
+}
